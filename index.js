@@ -1,5 +1,5 @@
 'use strict'
 
-const myfun = "Shit";
+const myfun = "Shit it";
 
 console.log(myfun);
