@@ -1,5 +1,11 @@
 'use strict'
 
-const myfun = "Shit it";
+const express=require('express');
+const app=express
 
-console.log(myfun);
+app.get('/', (req, res) => {
+  console.log('get request to /', req);
+  res.send('Hello there!  ');
+});
+
+app.listen(8080);
