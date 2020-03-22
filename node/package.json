@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "author": "",
+  "author": "mikaely",
   "license": "GPL-3.0"
 }

@@ -1,2 +1,10 @@
 'use strict'
-console.log("This is JavaScript point ");
+const _=require('lodash')
+
+
+const argh= _.camelCase('FooBar');
+
+console.log("This is JavaScript");
+console.log("lodash "+argh);
+
+
